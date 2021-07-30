@@ -1,0 +1,36 @@
+@keyframes ArcGraph_animate__1UBxl {
+  0% {
+    stroke-dasharray: 0 628.32;
+  }
+}
+
+.ArcGraph_progress__1aMg- {
+  animation: ArcGraph_animate__1UBxl 2s ease-out forwards;
+}
+
+.ArcGraph_percentage__3C4tm {
+  text-anchor: middle;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+@keyframes CircleGraph_animate__2H_E_ {
+  0% {
+    stroke-dasharray: 0 628.32;
+  }
+}
+
+.CircleGraph_progress__3HWnR {
+  animation: CircleGraph_animate__2H_E_ 2s ease-out forwards;
+}
+
+.CircleGraph_percentage__1mJmz {
+  text-anchor: middle;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+
+/*# sourceMappingURL=main.7b793890.chunk.css.map*/
