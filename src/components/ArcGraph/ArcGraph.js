@@ -12,11 +12,11 @@ const CircleGraph = ({size, percentage, color, backgroundColor, textColor}) => {
     <svg xmlns="http://www.w3.org/2000/svg" width={size}  height={size*.5} viewBox="0 0 240 120">
       <circle cx="120" cy="123" r="100" fill="none" strokeWidth="25"
         strokeDasharray={`${circ*.5} ${circ}`} strokeLinecap="butt"
-        transform="rotate(180) translate(-240, -240)" stroke={backgroundColor}
+        stroke={backgroundColor} className={styles.move}
       />
       <circle cx="120" cy="123" r="100" fill="none" strokeWidth="25" stroke={color}
         strokeDasharray={`${pCirc*.5} ${circ}`} strokeLinecap="butt"
-        transform="rotate(180) translate(-240, -240)" className={styles.progress}
+        className={`${styles.progress} ${styles.move}`}
       />
       <text x="125" y="115" fill={textColor} className={styles.percentage}>{`${percentage}%`}</text>}
     </svg>

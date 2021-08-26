@@ -5,7 +5,15 @@
 }
 
 .progress {
-  animation: animate 2s ease-out forwards;
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-direction: forwards;
+}
+
+.move {
+  transform-origin: 120px 123px;
+  transform: rotateZ(180deg);
 }
 
 .percentage {
