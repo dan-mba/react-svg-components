@@ -3,7 +3,7 @@ import React from 'react';
 import AG from './ArcGraph';
 
 export default {
-  title: 'Componets/ArcGraph',
+  title: 'Components/ArcGraph',
   component: AG,
   argTypes: {
     percentage: {
@@ -35,5 +35,9 @@ const Template = (args) => <AG {...args} />;
 
 export const ArcGraph = Template.bind({});
 ArcGraph.args = {
-  percentage: 66
+  percentage: 66,
+  size: 500,
+  color: 'blue',
+  backgroundColor: '#efefef',
+  textColor: 'black'
 };
