@@ -1,0 +1,23 @@
+@keyframes animate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.progress {
+  animation-name: animate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  stroke-dasharray: 76.5px 76.5px;
+  transform-origin: 100px 100px;
+}
+
+.svg {
+  background-color: transparent;
+}

@@ -3,7 +3,7 @@ import React from 'react';
 import CG from './CircleGraph';
 
 export default {
-  title: 'Componets/CircleGraph',
+  title: 'Components/CircleGraph',
   component: CG,
   argTypes: {
     percentage: {
@@ -35,5 +35,9 @@ const Template = (args) => <CG {...args} />;
 
 export const CircleGraph = Template.bind({});
 CircleGraph.args = {
-  percentage: 66
+  percentage: 66,
+  size: 500,
+  color: 'blue',
+  backgroundColor: '#efefef',
+  textColor: 'black'
 };
