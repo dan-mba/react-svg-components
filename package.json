@@ -49,7 +49,7 @@
     "@storybook/builder-webpack5": "^6.4.19",
     "@storybook/manager-webpack5": "^6.4.19",
     "@storybook/node-logger": "^6.4.19",
-    "@storybook/preset-create-react-app": "^4.0.1",
+    "@storybook/preset-create-react-app": "^4.0.2",
     "@storybook/react": "^6.4.19",
     "webpack": "^5.70.0"
   }
