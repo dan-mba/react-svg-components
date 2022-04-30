@@ -1,5 +1,3 @@
-import React from 'react';
-
 import AG from './ArcGraph';
 
 export default {

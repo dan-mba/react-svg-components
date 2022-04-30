@@ -18,7 +18,7 @@ const CircleGraph = ({size, percentage, color, backgroundColor, textColor}) => {
         strokeDasharray={`${pCirc*.5} ${circ}`} strokeLinecap="butt"
         className={`${styles.progress} ${styles.move}`}
       />
-      <text x="125" y="115" fill={textColor} className={styles.percentage}>{`${percentage}%`}</text>}
+      <text x="125" y="115" fill={textColor} className={styles.percentage}>{`${percentage}%`}</text>
     </svg>
   )
 }

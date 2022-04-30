@@ -3,10 +3,9 @@ module.exports = {
   features: {
     storyStoreV7: true
   },
-  staticDirs: ['../public'],
-  stories: ['../src/components/**/*.stories.js'],
-  addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/preset-create-react-app'],
+  stories: ['../src/components/**/*.stories.jsx'],
+  addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
   core: {
-    builder: 'webpack5'
+    builder: '@storybook/builder-vite'
   }
 };
