@@ -1,5 +1,3 @@
-import React from 'react';
-
 import SB from './SpinnerBall';
 
 export default {
