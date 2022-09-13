@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
+
+@keyframes animate {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spin {
+  font-size: 50px;
+  stroke: red;
+  letter-spacing: 0.3em;
+  animation-name: animate;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+}
+
+.text{
+  font-family: "Bungee Outline", cursive;
+}
+
