@@ -29,7 +29,7 @@ const CircleText = ({size, spin, text, textColor}) => {
 CircleText.defaultProps = {
   size: 500,
   spin: false,
-  text: 'Test',
+  text: 'Testing Testing',
   textColor: 'black'
 };
 
