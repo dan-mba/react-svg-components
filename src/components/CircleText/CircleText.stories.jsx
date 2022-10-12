@@ -29,6 +29,6 @@ export const CircleText = Template.bind({});
 CircleText.args = {
   size: 500,
   spin: false,
-  text: 'Test',
+  text: 'Testing Testing',
   textColor: 'black'
 };
