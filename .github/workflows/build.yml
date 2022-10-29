@@ -9,9 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    env:
-      NODE_OPTIONS: --openssl-legacy-provider
+    runs-on: ubuntu-latest   
     steps:
     - uses: actions/checkout@v3
     - name: Setup Node.js
@@ -19,7 +17,9 @@ jobs:
       with:
         node-version: 'lts/*'
         cache: "npm"
-    - name: Build 
+    - name: Build
+      env:
+        NODE_OPTIONS: --openssl-legacy-provider
       run: |
         npm ci
         npm run build-storybook
