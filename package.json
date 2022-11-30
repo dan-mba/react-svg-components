@@ -11,7 +11,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview --port 8080",
-    "storybook": "start-storybook -p 6006 --no-manager-cache",
+    "storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006 --no-manager-cache",
     "build-storybook": "build-storybook -o ./docs"
   },
   "browserslist": {

@@ -1,7 +1,12 @@
 import PropTypes from 'prop-types'
 import styles from './CircleText.module.css'
 
-const CircleText = ({size, spin, text, textColor}) => {
+const CircleText = ({
+  size = 500,
+  spin = false,
+  text = '',
+  textColor = 'black'
+}) => {
   const textStyle = {
     fontSize: `${Math.min(50, (13.3 / text.length) * 50 )}px`,
     letterSpacing: `${Math.min(0.3, Math.pow(13 / text.length, 1/4) * 0.3)}em`,
@@ -25,13 +30,6 @@ const CircleText = ({size, spin, text, textColor}) => {
     </svg>
   )
 }
-
-CircleText.defaultProps = {
-  size: 500,
-  spin: false,
-  text: 'Testing Testing',
-  textColor: 'black'
-};
 
 CircleText.propTypes ={
   size: PropTypes.number,

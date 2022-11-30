@@ -2,7 +2,13 @@ import PropTypes from 'prop-types'
 import isPercentage from '../util/percentage'
 import styles from './CircleGraph.module.css'
 
-const CircleGraph = ({size, percentage, color, backgroundColor, textColor}) => {
+const CircleGraph = ({
+  size = 500,
+  percentage,
+  color = 'blue',
+  backgroundColor = '#efefef',
+  textColor = 'black'
+}) => {
   if(typeof percentage !== 'number') return null;
   if(percentage < 0 || percentage > 100) return null;
   const circ = 200 * Math.PI;
@@ -21,13 +27,6 @@ const CircleGraph = ({size, percentage, color, backgroundColor, textColor}) => {
     </svg>
   )
 }
-
-CircleGraph.defaultProps = {
-  size: 500,
-  color: 'blue',
-  backgroundColor: '#efefef',
-  textColor: 'black'
-};
 
 CircleGraph.propTypes ={
   size: PropTypes.number,
