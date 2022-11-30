@@ -18,8 +18,12 @@ export default {
       description: 'fill color for graph',
       control: 'color'
     },
+    emptyColor: {
+      description: 'color for unfilled area of graph',
+      control: 'color'
+    },
     backgroundColor: {
-      description: 'background color for unfilled area of graph',
+      description: 'background color for component',
       control: 'color'
     },
     textColor: {
@@ -36,6 +40,7 @@ ArcGraph.args = {
   percentage: 66,
   size: 500,
   color: 'blue',
-  backgroundColor: '#efefef',
+  emptyColor: '#e0e0e0',
+  backgroundColor: '#ffffff',
   textColor: 'black'
 };

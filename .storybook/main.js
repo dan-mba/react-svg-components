@@ -9,13 +9,17 @@ module.exports = {
       base: './'
     });
   },
-  framework: '@storybook/react',
+  framework: {
+    name: '@storybook/react-vite',
+    options: {}
+  },
   features: {
     storyStoreV7: true
   },
   stories: ['../src/components/**/*.stories.jsx'],
   addons: ['@storybook/addon-essentials'],
-  core: {
-    builder: '@storybook/builder-vite'
+  core: {},
+  docsPage: {
+    docs: 'automatic'
   }
 };
