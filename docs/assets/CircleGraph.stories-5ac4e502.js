@@ -40,4 +40,4 @@ CircleGraph.args = {
   textColor: 'black'
 };
 `,locationsMap:{"circle-graph":{startLoc:{col:17,line:32},endLoc:{col:43,line:32},startBody:{col:17,line:32},endBody:{col:43,line:32}}}}},title:"Components/CircleGraph",component:p,argTypes:{percentage:{description:"percentage to be displayed",control:"range",min:0,max:100},size:{description:"width & height of graph",default:500},color:{description:"fill color for graph",control:"color"},backgroundColor:{description:"background color for unfilled area of graph",control:"color"},textColor:{description:"color of text percentage",control:"color"}}},y=a(r=>t(p,{...r}),"Template"),k=y.bind({});k.args={percentage:66,size:500,color:"blue",backgroundColor:"#efefef",textColor:"black"};const E=["CircleGraph"];export{k as CircleGraph,E as __namedExportsOrder,T as default};
-//# sourceMappingURL=CircleGraph.stories-53367973.js.map
+//# sourceMappingURL=CircleGraph.stories-5ac4e502.js.map

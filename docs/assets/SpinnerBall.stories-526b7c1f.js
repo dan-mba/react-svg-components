@@ -33,4 +33,4 @@ SpinnerBall.args = {
   duration: '3s'
 };
 `,locationsMap:{"spinner-ball":{startLoc:{col:17,line:26},endLoc:{col:43,line:26},startBody:{col:17,line:26},endBody:{col:43,line:26}}}}},title:"Components/SpinnerBall",component:a,argTypes:{size:{description:"width & height of graph",default:200},primaryColor:{description:"primary color for spinner",control:"color"},secondaryColor:{description:"secondary color for spinner",control:"color"},duration:{description:"duration of spinning animation",default:"3s"}}},f=o(e=>s(a,{...e}),"Template"),g=f.bind({});g.args={size:200,primaryColor:"blue",secondaryColor:"#eeeeee",duration:"3s"};const v=["SpinnerBall"];export{g as SpinnerBall,v as __namedExportsOrder,b as default};
-//# sourceMappingURL=SpinnerBall.stories-477b321d.js.map
+//# sourceMappingURL=SpinnerBall.stories-526b7c1f.js.map

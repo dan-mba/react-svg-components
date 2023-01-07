@@ -40,4 +40,4 @@ ArcGraph.args = {
   textColor: 'black'
 };
 `,locationsMap:{"arc-graph":{startLoc:{col:17,line:32},endLoc:{col:43,line:32},startBody:{col:17,line:32},endBody:{col:43,line:32}}}}},title:"Components/ArcGraph",component:s,argTypes:{percentage:{description:"percentage to be displayed",control:"range",min:0,max:100},size:{description:"width & height of graph",default:500},color:{description:"fill color for graph",control:"color"},backgroundColor:{description:"background color for unfilled area of graph",control:"color"},textColor:{description:"color of text percentage",control:"color"}}},y=c(o=>a(s,{...o}),"Template"),C=y.bind({});C.args={percentage:66,size:500,color:"blue",backgroundColor:"#efefef",textColor:"black"};const T=["ArcGraph"];export{C as ArcGraph,T as __namedExportsOrder,$ as default};
-//# sourceMappingURL=ArcGraph.stories-bff94d6c.js.map
+//# sourceMappingURL=ArcGraph.stories-a4fe4eb8.js.map

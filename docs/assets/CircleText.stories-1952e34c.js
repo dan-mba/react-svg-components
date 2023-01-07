@@ -33,4 +33,4 @@ CircleText.args = {
   textColor: 'black'
 };
 `,locationsMap:{"circle-text":{startLoc:{col:17,line:26},endLoc:{col:43,line:26},startBody:{col:17,line:26},endBody:{col:43,line:26}}}}},title:"Components/CircleText",component:a,argTypes:{size:{description:"width & height of text circle",default:500},spin:{description:"Rotate the text",control:"boolean"},text:{description:"text to display",control:"text"},textColor:{description:"color of text percentage",control:"color"}}},g=s(e=>t(a,{...e}),"Template"),h=g.bind({});h.args={size:500,spin:!1,text:"Testing Testing",textColor:"black"};const v=["CircleText"];export{h as CircleText,v as __namedExportsOrder,w as default};
-//# sourceMappingURL=CircleText.stories-57a886c4.js.map
+//# sourceMappingURL=CircleText.stories-1952e34c.js.map
