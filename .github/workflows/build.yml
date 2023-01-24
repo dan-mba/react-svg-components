@@ -29,7 +29,6 @@ jobs:
         npm run build-storybook
 
     - name: Upload artifact
-      if: github.event_name == 'push'
       uses: actions/upload-pages-artifact@v1
       with:
         path: './storybook-static'
@@ -40,7 +39,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    if: github.event_name == 'push'
     needs: build
     steps:
       - name: Deploy to GitHub Pages
