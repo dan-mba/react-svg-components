@@ -29,10 +29,10 @@ jobs:
         npm run build-storybook
 
     - name: Upload artifact
-        if: github.event_name == 'push'
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: './storybook-static'
+      if: github.event_name == 'push'
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: './storybook-static'
 
 # Deployment job
   deploy:
