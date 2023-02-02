@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^6.5.15",
-    "@storybook/builder-vite": "^0.3.0",
+    "@storybook/builder-vite": "^0.4.0",
     "@storybook/react": "^6.5.15",
     "@vitejs/plugin-react": "^3.0.1",
     "eslint": "^8.32.0",
