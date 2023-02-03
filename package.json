@@ -31,7 +31,7 @@
     "@vitejs/plugin-react": "^3.0.1",
     "eslint": "^8.32.0",
     "eslint-plugin-react": "^7.32.1",
-    "storybook": "^6.5.15",
+    "storybook": "^6.5.16",
     "vite": "^4.0.4",
     "vite-plugin-html": "^3.2.0"
   }
