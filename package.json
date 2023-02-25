@@ -32,7 +32,7 @@
     "eslint": "^8.34.0",
     "eslint-plugin-react": "^7.32.2",
     "storybook": "^6.5.16",
-    "vite": "^4.1.1",
+    "vite": "^4.1.4",
     "vite-plugin-html": "^3.2.0"
   }
 }
