@@ -8,6 +8,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
+    "plugin:storybook/recommended"
   ],
   "overrides": [
     {
@@ -21,14 +22,14 @@ module.exports = {
   ],
   "parserOptions": {
     "ecmaFeatures": {
-        "jsx": true
+      "jsx": true
     },
     "ecmaVersion": 13,
     "sourceType": "module"
   },
   "settings": {
     "react": {
-        "version": "detect"
+      "version": "detect"
     }
   },
   "plugins": [

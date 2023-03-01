@@ -1,21 +1,25 @@
 // use `mergeConfig` to recursively merge Vite options
-const { mergeConfig } = require('vite');
-
+const {
+  mergeConfig
+} = require('vite');
 module.exports = {
-  async viteFinal(config, { configType }) {
+  async viteFinal(config, {
+    configType
+  }) {
     // return the customized config
     return mergeConfig(config, {
       // customize the Vite config here
       base: './'
     });
   },
-  framework: '@storybook/react',
-  features: {
-    storyStoreV7: true
+  framework: {
+    name: '@storybook/react-vite',
+    options: {}
   },
   stories: ['../src/components/**/*.stories.jsx'],
   addons: ['@storybook/addon-essentials'],
-  core: {
-    builder: '@storybook/builder-vite'
+  core: {},
+  docs: {
+    autodocs: false
   }
 };

@@ -6,7 +6,7 @@ const CircleGraph = ({
   size = 500,
   percentage,
   color= 'blue',
-  backgroundColor = '#efefef',
+  emptyColor = '#e0e0e0',
   textColor = 'black'
 }) => {
   if(typeof percentage !== 'number') return null;
@@ -15,10 +15,10 @@ const CircleGraph = ({
   const pCirc = (percentage/100) * circ;
 
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width={size}  height={size*.5} viewBox="0 0 240 120">
+    <svg xmlns="http://www.w3.org/2000/svg" width={size}  height={size*.5} viewBox="0 0 240 130">
       <circle cx="120" cy="123" r="100" fill="none" strokeWidth="25"
         strokeDasharray={`${circ*.5} ${circ}`} strokeLinecap="butt"
-        stroke={backgroundColor} className={styles.move}
+        stroke={emptyColor} className={styles.move}
       />
       <circle cx="120" cy="123" r="100" fill="none" strokeWidth="25" stroke={color}
         strokeDasharray={`${pCirc*.5} ${circ}`} strokeLinecap="butt"
@@ -33,7 +33,7 @@ CircleGraph.propTypes ={
   size: PropTypes.number,
   percentage: isPercentage,
   color: PropTypes.string,
-  backgroundColor: PropTypes.string,
+  emptyColor: PropTypes.string,
   textColor: PropTypes.string,
 }
 
