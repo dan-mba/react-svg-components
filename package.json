@@ -32,7 +32,7 @@
     "@storybook/react": "^7.0.0-rc.8",
     "@storybook/react-vite": "^7.0.0-rc.8",
     "@vitejs/plugin-react": "^3.1.0",
-    "eslint": "^8.36.0",
+    "eslint": "^8.37.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-storybook": "^0.6.11",
     "storybook": "^7.0.0-rc.8",
