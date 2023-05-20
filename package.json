@@ -30,7 +30,7 @@
     "@babel/preset-react": "^7.18.6",
     "@storybook/addon-essentials": "^7.0.11",
     "@storybook/react": "^7.0.12",
-    "@storybook/react-vite": "^7.0.11",
+    "@storybook/react-vite": "^7.0.12",
     "@vitejs/plugin-react": "^4.0.0",
     "eslint": "^8.40.0",
     "eslint-plugin-react": "^7.32.2",
