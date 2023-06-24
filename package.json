@@ -28,7 +28,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
-    "@storybook/addon-essentials": "^7.0.20",
+    "@storybook/addon-essentials": "^7.0.23",
     "@storybook/react": "^7.0.23",
     "@storybook/react-vite": "^7.0.23",
     "@vitejs/plugin-react": "^4.0.1",
