@@ -8,6 +8,11 @@ updates:
     schedule:
       interval: "weekly"
       day: "thursday"
+    groups:
+      storybook:
+        patterns:
+          - "@storybook*"
+          - "storybook*"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
