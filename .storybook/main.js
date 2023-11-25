@@ -1,8 +1,7 @@
 // use `mergeConfig` to recursively merge Vite options
-const {
-  mergeConfig
-} = require('vite');
-module.exports = {
+import { mergeConfig } from 'vite';
+
+const config = {
   async viteFinal(config, {
     configType
   }) {
@@ -23,3 +22,5 @@ module.exports = {
     autodocs: false
   }
 };
+
+export default config;

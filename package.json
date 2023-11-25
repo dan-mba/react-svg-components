@@ -2,6 +2,7 @@
   "name": "react-svg-components",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -13,7 +14,7 @@
     "serve": "vite preview --port 8080",
     "storybook": "storybook dev -p 6006",
     "sb-update": "npx storybook@next upgrade --prerelease",
-    "build-storybook": "storybook build"
+    "build-storybook": "VITE_CJS_IGNORE_WARNING=true storybook build"
   },
   "browserslist": {
     "production": [
@@ -36,7 +37,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-storybook": "^0.6.15",
     "storybook": "^7.5.3",
-    "vite": "^4.5.0",
+    "vite": "^5.0.2",
     "vite-plugin-html": "^3.2.0"
   }
 }
