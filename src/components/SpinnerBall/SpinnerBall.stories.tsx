@@ -1,6 +1,8 @@
+import type { Meta, StoryObj } from '@storybook/react';
+
 import SB from './SpinnerBall';
 
-export default {
+const meta = {
   title: 'Components/SpinnerBall',
   component: SB,
   argTypes: {
@@ -21,14 +23,16 @@ export default {
       default: '3s'
     }
   },
-};
+} satisfies Meta<typeof SB>;
 
-const Template = (args) => <SB {...args} />;
+export default meta;
+type Story = StoryObj<typeof meta>;
 
-export const SpinnerBall = Template.bind({});
-SpinnerBall.args = {
-  size: 200,
-  primaryColor: 'blue',
-  secondaryColor: '#eeeeee',
-  duration: '3s'
+export const SpinnerBall: Story = {
+  args: {
+    size: 200,
+    primaryColor: 'blue',
+    secondaryColor: '#eeeeee',
+    duration: '3s'
+  }
 };

@@ -1,16 +1,27 @@
-import PropTypes from 'prop-types'
-import isPercentage from '../util/percentage'
+import { z } from 'zod'
 import styles from './ArcGraph.module.css'
 
-const CircleGraph = ({
+type ArcGraphProps = {
+  size: number,
+  percentage: number,
+  color: string,
+  emptyColor: string,
+  textColor:string
+}
+
+const ArcGraph = ({
   size = 500,
   percentage,
   color= 'blue',
   emptyColor = '#e0e0e0',
   textColor = 'black'
-}) => {
-  if(typeof percentage !== 'number') return null;
-  if(percentage < 0 || percentage > 100) return null;
+}: ArcGraphProps) => {
+  try {
+    z.number().gte(0).lte(100).parse(percentage);
+  } catch {
+    console.error(`Percentage value invalid. Expected a number between 0 - 100. Got ${percentage}`)
+    return null;
+  }
   const circ = 200 * Math.PI;
   const pCirc = (percentage/100) * circ;
 
@@ -29,12 +40,4 @@ const CircleGraph = ({
   )
 }
 
-CircleGraph.propTypes ={
-  size: PropTypes.number,
-  percentage: isPercentage,
-  color: PropTypes.string,
-  emptyColor: PropTypes.string,
-  textColor: PropTypes.string,
-}
-
-export default CircleGraph
+export default ArcGraph

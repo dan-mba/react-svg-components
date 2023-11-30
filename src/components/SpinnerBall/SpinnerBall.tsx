@@ -1,12 +1,18 @@
-import PropTypes from 'prop-types'
 import styles from './SpinnerBall.module.css'
+
+type SpinnerBallType = {
+  size: number,
+  primaryColor: string,
+  secondaryColor: string,
+  duration: string
+}
 
 const SpinnerBall = ({
   size= 200,
   primaryColor = 'blue',
   secondaryColor = '#eeeeee',
   duration = '3s'
-}) => {
+}: SpinnerBallType) => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size}  height={size}
       viewBox="0 0 200 200" className={styles.svg}
@@ -16,13 +22,6 @@ const SpinnerBall = ({
         className={styles.progress} style={{animationDuration: duration}}/>
     </svg>
   )
-}
-
-SpinnerBall.propTypes ={
-  size: PropTypes.number,
-  primaryColor: PropTypes.string,
-  secondaryColor: PropTypes.string,
-  duration: PropTypes.string,
 }
 
 export default SpinnerBall;
