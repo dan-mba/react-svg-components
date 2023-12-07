@@ -29,14 +29,14 @@
   "devDependencies": {
     "@babel/preset-env": "^7.23.5",
     "@babel/preset-react": "^7.23.3",
-    "@storybook/addon-essentials": "^7.6.1",
-    "@storybook/react": "^7.6.1",
-    "@storybook/react-vite": "^7.6.1",
+    "@storybook/addon-essentials": "^7.6.3",
+    "@storybook/react": "^7.6.3",
+    "@storybook/react-vite": "^7.6.3",
     "@vitejs/plugin-react": "^4.2.0",
     "eslint": "^8.54.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-storybook": "^0.6.15",
-    "storybook": "^7.6.1",
+    "storybook": "^7.6.3",
     "vite": "^5.0.4",
     "vite-plugin-html": "^3.2.0"
   }
