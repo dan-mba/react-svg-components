@@ -1,7 +1,7 @@
 {
   "name": "react-svg-components",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -19,21 +19,20 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.6.1",
+    "@storybook/addon-essentials": "^7.6.5",
     "@storybook/react": "^7.6.1",
-    "@storybook/react-vite": "^7.6.1",
-    "@storybook/test": "^7.6.1",
-    "@types/react": "^18.2.39",
-    "@types/react-dom": "^18.2.17",
-    "@typescript-eslint/eslint-plugin": "^6.13.1",
-    "@typescript-eslint/parser": "^6.13.1",
-    "@vitejs/plugin-react": "^4.2.0",
-    "eslint": "^8.54.0",
+    "@storybook/react-vite": "^7.6.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.4",
+    "eslint-plugin-react-refresh": "^0.4.5",
     "eslint-plugin-storybook": "^0.6.15",
-    "storybook": "^7.6.1",
-    "typescript": "^5.3.2",
-    "vite": "^5.0.4"
+    "storybook": "^7.6.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
   }
 }
