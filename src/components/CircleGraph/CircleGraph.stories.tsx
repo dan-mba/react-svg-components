@@ -1,6 +1,8 @@
+import type { Meta, StoryObj } from '@storybook/react';
+
 import CG from './CircleGraph';
 
-export default {
+const meta =  {
   title: 'Components/CircleGraph',
   component: CG,
   argTypes: {
@@ -28,15 +30,17 @@ export default {
       control: 'color'
     }
   },
-};
+} satisfies Meta<typeof CG>;
 
-const Template = (args) => <CG {...args} />;
+export default meta;
+type Story = StoryObj<typeof meta>;
 
-export const CircleGraph = Template.bind({});
-CircleGraph.args = {
-  percentage: 66,
-  size: 500,
-  color: 'blue',
-  emptyColor: '#e0e0e0',
-  textColor: 'black'
+export const CircleGraph: Story = {
+  args: {
+    percentage: 66,
+    size: 500,
+    color: 'blue',
+    emptyColor: '#e0e0e0',
+    textColor: 'black'
+  }
 };

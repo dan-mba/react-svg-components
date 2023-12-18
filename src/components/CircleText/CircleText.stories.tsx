@@ -1,8 +1,10 @@
-import CG from './CircleText';
+import type { Meta, StoryObj } from '@storybook/react';
 
-export default {
+import CT from './CircleText';
+
+const meta = {
   title: 'Components/CircleText',
-  component: CG,
+  component: CT,
   argTypes: {
     size: {
       description: 'width & height of text circle',
@@ -21,14 +23,16 @@ export default {
       control: 'color'
     }
   },
-};
+} satisfies Meta<typeof CT>;
 
-const Template = (args) => <CG {...args} />;
+export default meta;
+type Story = StoryObj<typeof meta>;
 
-export const CircleText = Template.bind({});
-CircleText.args = {
-  size: 500,
-  spin: false,
-  text: 'Testing Testing',
-  textColor: 'black'
+export const CircleText: Story = {
+  args: {
+    size: 500,
+    spin: false,
+    text: 'Testing Testing',
+    textColor: 'black'
+  }
 };

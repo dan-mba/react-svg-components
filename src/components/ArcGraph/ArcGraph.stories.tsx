@@ -1,6 +1,8 @@
+import type { Meta, StoryObj } from '@storybook/react';
+
 import AG from './ArcGraph';
 
-export default {
+const meta = {
   title: 'Components/ArcGraph',
   component: AG,
   argTypes: {
@@ -27,15 +29,17 @@ export default {
       control: 'color'
     }
   },
-};
+} satisfies Meta<typeof AG>;
 
-const Template = (args) => <AG {...args} />;
+export default meta;
+type Story = StoryObj<typeof meta>;
 
-export const ArcGraph = Template.bind({});
-ArcGraph.args = {
-  percentage: 66,
-  size: 500,
-  color: 'blue',
-  emptyColor: '#e0e0e0',
-  textColor: 'black'
+export const ArcGraph: Story = {
+  args: {
+    percentage: 66,
+    size: 500,
+    color: 'blue',
+    emptyColor: '#e0e0e0',
+    textColor: 'black'
+  }
 };
