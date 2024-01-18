@@ -16,7 +16,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "vite-plugin-html": "^3.2.1",
+    "vite-plugin-html": "^3.2.2",
     "zod": "^3.22.4"
   },
   "devDependencies": {
