@@ -20,9 +20,9 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.6.12",
-    "@storybook/react": "^7.6.12",
-    "@storybook/react-vite": "^7.6.12",
+    "@storybook/addon-essentials": "^7.6.13",
+    "@storybook/react": "^7.6.13",
+    "@storybook/react-vite": "^7.6.13",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
@@ -32,7 +32,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "eslint-plugin-storybook": "^0.6.15",
-    "storybook": "^7.6.12",
+    "storybook": "^7.6.13",
     "typescript": "^5.3.3",
     "vite": "^5.0.12"
   }
