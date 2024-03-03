@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "sb-update": "npx storybook@next upgrade --prerelease",
-    "build-storybook": "VITE_CJS_IGNORE_WARNING=true storybook build"
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -20,9 +20,9 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.6.17",
-    "@storybook/react": "^7.6.17",
-    "@storybook/react-vite": "^7.6.17",
+    "@storybook/addon-essentials": "^8.0.0-rc.1",
+    "@storybook/react": "^8.0.0-rc.1",
+    "@storybook/react-vite": "^8.0.0-rc.1",
     "@types/react": "^18.2.60",
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^7.1.0",
@@ -32,7 +32,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "eslint-plugin-storybook": "^0.8.0",
-    "storybook": "^7.6.17",
+    "storybook": "^8.0.0-rc.1",
     "typescript": "^5.3.3",
     "vite": "^5.1.4"
   }
