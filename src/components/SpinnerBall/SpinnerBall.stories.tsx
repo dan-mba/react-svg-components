@@ -7,7 +7,7 @@ const meta = {
   component: SB,
   argTypes: {
     size: {
-      description: 'width & height of graph',
+      description: 'width & height of spinner in px',
       default: 200
     },
     primaryColor: {

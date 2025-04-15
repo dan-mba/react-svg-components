@@ -7,7 +7,7 @@ const meta = {
   component: CT,
   argTypes: {
     size: {
-      description: 'width & height of text circle',
+      description: 'width & height of text circle in px',
       default: 500
     },
     spin: {

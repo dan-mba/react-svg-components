@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from '@zod/mini'
 import styles from './ArcGraph.module.css'
 
 type ArcGraphProps = {
@@ -17,7 +17,7 @@ const ArcGraph = ({
   textColor = 'black'
 }: ArcGraphProps) => {
   try {
-    z.number().gte(0).lte(100).parse(percentage);
+    z.number().check(z.gte(0),z.lte(100)).parse(percentage);
   } catch {
     console.error(`Percentage value invalid. Expected a number between 0 - 100. Got ${percentage}`)
     return null;

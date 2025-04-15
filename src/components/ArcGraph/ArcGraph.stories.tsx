@@ -8,12 +8,14 @@ const meta = {
   argTypes: {
     percentage: {
       description: 'percentage to be displayed',
-      control: 'range',
-      min: 0,
-      max: 100
+      control: {
+        type: 'range',
+        min: 0,
+        max: 100
+      }
     },
     size: {
-      description: 'width & height of graph',
+      description: 'width & height of graph in px',
       default: 500
     },
     color: {
@@ -36,7 +38,7 @@ type Story = StoryObj<typeof meta>;
 
 export const ArcGraph: Story = {
   args: {
-    percentage: 66,
+    percentage: 60,
     size: 500,
     color: 'blue',
     emptyColor: '#e0e0e0',

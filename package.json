@@ -14,10 +14,10 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@zod/mini": "^4.0.0-beta.20250414T061543",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "vite-plugin-html": "^3.2.2",
-    "zod": "^3.24.2"
+    "vite-plugin-html": "^3.2.2"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^8.6.12",
