@@ -14,7 +14,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@zod/mini": "^4.0.0-beta.20250417T043022",
+    "@zod/mini": "^4.0.0-beta.20250420T053007",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "vite-plugin-html": "^3.2.2"
