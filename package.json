@@ -20,9 +20,9 @@
     "vite-plugin-html": "^3.2.2"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^8.6.12",
-    "@storybook/react": "^8.6.12",
-    "@storybook/react-vite": "^8.6.12",
+    "@storybook/addon-essentials": "^8.6.14",
+    "@storybook/react": "^8.6.14",
+    "@storybook/react-vite": "^8.6.14",
     "@types/react": "^19.1.4",
     "@types/react-dom": "^19.1.5",
     "@vitejs/plugin-react": "^4.4.1",
@@ -30,7 +30,7 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-storybook": "^0.12.0",
     "globals": "^16.1.0",
-    "storybook": "^8.6.12",
+    "storybook": "^8.6.14",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.32.1",
     "vite": "^6.3.5"
