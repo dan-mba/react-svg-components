@@ -1,4 +1,4 @@
-import { z } from '@zod/mini'
+import { z } from 'zod/mini'
 import styles from './CircleGraph.module.css'
 
 type CircleGraphProps = {

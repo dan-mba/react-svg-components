@@ -1,5 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react';
-
+import type { Meta, StoryObj } from '@storybook/react-vite';
 import AG from './ArcGraph';
 
 const meta = {

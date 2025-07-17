@@ -1,4 +1,4 @@
-import { z } from '@zod/mini'
+import { z } from 'zod/mini'
 import styles from './ArcGraph.module.css'
 
 type ArcGraphProps = {
