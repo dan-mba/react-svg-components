@@ -25,7 +25,7 @@
     "@vitejs/plugin-react": "^5.0.3",
     "eslint": "^9.31.0",
     "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-storybook": "^9.1.6",
+    "eslint-plugin-storybook": "^9.1.7",
     "globals": "^16.4.0",
     "storybook": "^9.1.7",
     "typescript": "^5.9.2",
