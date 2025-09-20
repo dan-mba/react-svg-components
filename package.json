@@ -16,7 +16,7 @@
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "zod": "^4.1.6"
+    "zod": "^4.1.9"
   },
   "devDependencies": {
     "@storybook/react-vite": "^9.1.7",
