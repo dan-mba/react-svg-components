@@ -20,10 +20,10 @@
   },
   "devDependencies": {
     "@storybook/react-vite": "^9.1.8",
-    "@types/react": "^19.1.12",
+    "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react": "^5.0.3",
-    "eslint": "^9.31.0",
+    "eslint": "^9.36.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-storybook": "^9.1.8",
     "globals": "^16.4.0",
@@ -32,5 +32,6 @@
     "typescript-eslint": "^8.44.1",
     "vite": "^7.1.7",
     "vite-plugin-html": "^3.2.2"
-  }
+  },
+  "packageManager": "pnpm@10.17.1+sha512.17c560fca4867ae9473a3899ad84a88334914f379be46d455cbf92e5cf4b39d34985d452d2583baf19967fa76cb5c17bc9e245529d0b98745721aa7200ecaf7a"
 }
