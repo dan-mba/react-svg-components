@@ -11,6 +11,12 @@ updates:
     cooldown:
       default-days: 1
     groups:
+      react-deps:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+          - "@types/react-dom"
       storybook:
         patterns:
           - "@storybook*"

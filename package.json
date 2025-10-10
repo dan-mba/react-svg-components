@@ -14,16 +14,16 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "zod": "^4.1.12"
   },
   "devDependencies": {
     "@storybook/react-vite": "^9.1.10",
-    "@types/react": "^19.1.16",
-    "@types/react-dom": "^19.1.9",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
     "@vitejs/plugin-react": "^5.0.4",
-    "eslint": "^9.36.0",
+    "eslint": "^9.37.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-storybook": "^9.1.10",
     "globals": "^16.4.0",
@@ -33,5 +33,5 @@
     "vite": "^7.1.9",
     "vite-plugin-html": "^3.2.2"
   },
-  "packageManager": "pnpm@10.17.1+sha512.17c560fca4867ae9473a3899ad84a88334914f379be46d455cbf92e5cf4b39d34985d452d2583baf19967fa76cb5c17bc9e245529d0b98745721aa7200ecaf7a"
+  "packageManager": "pnpm@10.18.2+sha512.9fb969fa749b3ade6035e0f109f0b8a60b5d08a1a87fdf72e337da90dcc93336e2280ca4e44f2358a649b83c17959e9993e777c2080879f3801e6f0d999ad3dd"
 }
