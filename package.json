@@ -26,10 +26,10 @@
     "eslint": "^9.38.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-storybook": "^10.1.11",
-    "globals": "^16.5.0",
+    "globals": "^17.0.0",
     "storybook": "^10.1.11",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.51.0",
+    "typescript-eslint": "^8.52.0",
     "vite": "^7.3.0",
     "vite-plugin-html": "^3.2.2"
   },
