@@ -15,8 +15,8 @@ importers:
         specifier: ^19.2.3
         version: 19.2.3(react@19.2.3)
       zod:
-        specifier: ^4.2.1
-        version: 4.2.1
+        specifier: ^4.3.5
+        version: 4.3.5
     devDependencies:
       '@storybook/react-vite':
         specifier: ^10.1.11
@@ -2188,8 +2188,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@4.2.1:
-    resolution: {integrity: sha512-0wZ1IRqGGhMP76gLqz8EyfBXKk0J2qo2+H3fi4mcUP/KtTocoX08nmIAHl1Z2kJIZbZee8KOpBCSNPRgauucjw==}
+  zod@4.3.5:
+    resolution: {integrity: sha512-k7Nwx6vuWx1IJ9Bjuf4Zt1PEllcwe7cls3VNzm4CQ1/hgtFUK2bRNG3rvnpPUhFjmqJKAKtjV576KnUkHocg/g==}
 
 snapshots:
 
@@ -4538,4 +4538,4 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@4.2.1: {}
+  zod@4.3.5: {}
