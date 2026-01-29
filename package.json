@@ -19,7 +19,7 @@
     "zod": "^4.3.5"
   },
   "devDependencies": {
-    "@storybook/react-vite": "^10.1.11",
+    "@storybook/react-vite": "^10.2.1",
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.2",
@@ -27,7 +27,7 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-storybook": "^10.1.11",
     "globals": "^17.0.0",
-    "storybook": "^10.1.11",
+    "storybook": "^10.2.1",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.53.1",
     "vite": "^7.3.1",
