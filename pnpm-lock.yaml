@@ -31,8 +31,8 @@ importers:
         specifier: ^19.2.3
         version: 19.2.3(@types/react@19.2.17)
       '@vitejs/plugin-react':
-        specifier: ^6.0.3
-        version: 6.0.3(vite@8.1.5(esbuild@0.28.1)(terser@5.47.1))
+        specifier: ^6.0.4
+        version: 6.0.4(vite@8.1.5(esbuild@0.28.1)(terser@5.47.1))
       eslint:
         specifier: ^9.39.5
         version: 9.39.5
@@ -431,12 +431,6 @@ packages:
     resolution: {integrity: sha512-0LC7ye4hvqbIKxAzThzvswgHLFu2AURKzYLeSVvLdu2TBOYWQDmHnTqPLeA597BcUCxiLqLsS4CJ5uoI5WYWCQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
-    os: [android]
-
-  '@oxc-parser/binding-android-arm64@0.127.0':
-    resolution: {integrity: sha512-b5jtVTH6AU5CJXHNdj7Jj9IEiR9yVjjnwHzPJhGyHGPdcsZSzBCkS9GBbV33niRMvKthDwQRFRJfI4a+k4PvYg==}
-    engines: {node: ^20.19.0 || >=22.12.0}
-    cpu: [arm64]
     os: [android]
 
   '@oxc-parser/binding-darwin-arm64@0.127.0':
@@ -966,8 +960,8 @@ packages:
     resolution: {integrity: sha512-8C71BQkGjiMmXtop7pHVJu1l2NNShFdkCyD6a2ezzs5vU/L3LRtb69EtcteFwz0mYMPzIgOw0n6OV4VBUWZd7A==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@vitejs/plugin-react@6.0.3':
-    resolution: {integrity: sha512-vmFvco5/QuC2f9Oj+wTk0+9XeDFkHxSamwZKYc7MxYwKICfvUvlMhqKI0VuICPltGqh1neqBKDvO4kes1ya8vg==}
+  '@vitejs/plugin-react@6.0.4':
+    resolution: {integrity: sha512-XcCQz0TBpBgljhj0gMuuDj49i6Ytqh5q1osT/Gp5uAVJUCTWxyskk/l1jwYYiu2xcNHHipdMz40EGfM1VdamVg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       '@rolldown/plugin-babel': ^0.1.7 || ^0.2.0
@@ -2840,9 +2834,6 @@ snapshots:
   '@oxc-parser/binding-android-arm-eabi@0.127.0':
     optional: true
 
-  '@oxc-parser/binding-android-arm64@0.127.0':
-    optional: true
-
   '@oxc-parser/binding-darwin-arm64@0.127.0':
     optional: true
 
@@ -3269,7 +3260,7 @@ snapshots:
       '@typescript-eslint/types': 8.65.0
       eslint-visitor-keys: 5.0.1
 
-  '@vitejs/plugin-react@6.0.3(vite@8.1.5(esbuild@0.28.1)(terser@5.47.1))':
+  '@vitejs/plugin-react@6.0.4(vite@8.1.5(esbuild@0.28.1)(terser@5.47.1))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
       vite: 8.1.5(esbuild@0.28.1)(terser@5.47.1)
@@ -4419,7 +4410,6 @@ snapshots:
       '@oxc-project/types': 0.127.0
     optionalDependencies:
       '@oxc-parser/binding-android-arm-eabi': 0.127.0
-      '@oxc-parser/binding-android-arm64': 0.127.0
       '@oxc-parser/binding-darwin-arm64': 0.127.0
       '@oxc-parser/binding-darwin-x64': 0.127.0
       '@oxc-parser/binding-freebsd-x64': 0.127.0
