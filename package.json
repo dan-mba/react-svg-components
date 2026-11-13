@@ -31,7 +31,7 @@
     "storybook": "^10.6.7",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.72.1",
-    "vite": "^8.3.5",
+    "vite": "^8.3.8",
     "vite-plugin-html": "^3.2.2"
   },
   "packageManager": "pnpm@12.9.1"
